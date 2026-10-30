@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <h1>ADDRESS BOOK</h1>
+
+    <button type="button" id="quickAdd">Add + </button>
+
+    <form id="addressBook" class="hidden">
+        <label for="fullname">Fullname: </label>
+        <input type="text" id="fullname" required>
+
+         <label for="number">Tel: </label>
+        <input type="text" id="number" required>
+
+         <label for="email">E-mail: </label>
+        <input type="text" id="email" required>
+
+         <label for="address">Address: </label>
+        <input type="text" id="address" required>
+
+        <button id="submit">ADD</button>
+         <button id="cancel">CANCEL</button>
+
+    </form>
+
+    <div class="addbook"></div>
+    <button id="viewAddressBook" type="button">View Address Book</button>
+    <script src="script.js"></script>
+</body>
+</html>
